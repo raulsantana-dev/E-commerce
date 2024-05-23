@@ -1,0 +1,158 @@
+:root{
+     
+    --main-color: #151C34;
+    --dark-color: #0C121C ;
+    --light-color: #6DE6EE;
+    --contrast-color: #f4c96b;
+    --differential-color: #066668;
+
+}
+*{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+
+.font-destaque{
+    color: var(--light-color);
+    font-size: 40px;
+}
+
+.input-default{
+    background-color: rgba(255,255,255,0.05);
+    border: 1px solid var(--differential-color);
+    padding: 7px;
+    width: 50%;
+
+}
+
+.w100{
+    width: 100%;
+}
+
+.btn-default{
+    background-color: var(--light-color);
+    color: black;
+    width: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+#titulo{
+    color: white;
+}
+
+.font-destaque-secundaria{
+    color: var(--light-color);
+    font-size: 35px;
+}
+
+body{
+    background-image: url(bg2.png);
+    margin-left: 40%;
+    margin-right: 35%;
+    background-color: #000000;
+}
+
+#botao:hover{
+    background-color: #0b898b;
+    box-shadow:
+   -1px -1px 20px 0px #6edfe0,
+   -4px -4px 5px 0px #6edfe0,
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+
+
+#botao{
+    background-color: #151C34;
+    position: absolute;
+}
+#botton{
+    background-color: #151C34;
+    color: #0b898b;
+}
+    
+input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #6edfe0;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px; 
+    outline: none;
+}
+input[type="email"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #6edfe0;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    outline: none;
+}
+
+input[type="number"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #6edfe0;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px; 
+    outline: none;
+}
+input[type="date"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #6edfe0;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px; 
+    outline: none;
+}
+input[type="password"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #6edfe0;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px; 
+    outline: none;
+}
+.custom-radio {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px; 
+    margin-right: 10px; 
+}
+
+.custom-radio input {
+    appearance: none; 
+}
+
+.custom-radio input::before {
+    content: '';
+    display: inline-block;
+    width: 18px; 
+    height: 18px; 
+    border: 2px solid #fff; 
+    border-radius: 50%; 
+    background-color: #fff; 
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.custom-radio input:checked::before {
+    background-color: #6edfe0; 
+    border: 2px solid #6edfe0; 
+}
+
+
+
